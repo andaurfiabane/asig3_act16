@@ -1,0 +1,83 @@
+FORMAT: 1A
+HOST: http://polls.apiblueprint.org/
+
+# Custodia
+
+Esta es la documentación referente al proceso de custodia de ejemplo para la actividad 16. Esta API tiene como finalidad, registrar los créditos, líneas de crédito y tarjetas de crédito en la base de datos del sistema de custodia.
+
+## Créditos [/creditos]
+
+### Ingresar crédito [POST /creditos]
+
+Permite registrar un crédito en el sistema de custodia.
+
++ Request (application/json)
+
+        {
+            "Crédito": [
+                 "idCredito": 3,
+                 "idCliente": 2,
+                 "montoCredito": 18500000,
+                 "moneda": "CLP"
+            ]
+        }
+
++ Response 201 (application/json)
+
+    + Body
+
+            {
+               "resultado": "Crédito almacenado correctamente."
+            }
+
+## Líneas de crédito [/lineascredito]
+
+### Ingresar crédito [POST /lineascredito]
+
+Permite registrar una línea de crédito en el sistema de custodia.
+
++ Request (application/json)
+
+        {
+            "Línea_Crédito": [
+                 "idLinea": 1,
+                 "idCliente": 2,
+                 "montoApertura": 50000000,
+                 "moneda": "CLP"
+            ]
+        }
+
++ Response 201 (application/json)
+
+    + Body
+
+            {
+               "resultado": "Línea de crédito almacenada correctamente."
+            }
+
+## Tarjetas de crédito [/tarjetascredito]
+
+### Ingresar crédito [POST /tarjetascredito]
+
+Permite registrar una tarjeta de crédito en el sistema de custodia.
+
++ Request (application/json)
+
+        {
+            "Tarjeta_Crédito": [
+                 "idTarjeta": 1,
+                 "idCliente": 2,
+                 "montoApertura1": 50000000,
+                 "moneda1": "CLP",
+                 "montoApertura2": 0,
+                 "moneda2": "USD"
+            ]
+        }
+
++ Response 201 (application/json)
+
+    + Body
+
+            {
+               "resultado": "Tarjeta de crédito almacenada correctamente."
+            }
