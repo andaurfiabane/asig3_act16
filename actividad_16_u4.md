@@ -18,7 +18,8 @@ Permite registrar un crédito en el sistema de custodia.
                  "idCredito": 3,
                  "idCliente": 2,
                  "montoCredito": 18500000,
-                 "moneda": "CLP"
+                 "moneda": "CLP",
+                 "fecha":"2015-12-07"
             ]
         }
 
@@ -44,7 +45,8 @@ Permite registrar una línea de crédito en el sistema de custodia.
                  "idLinea": 1,
                  "idCliente": 2,
                  "montoLinea": 50000000,
-                 "moneda": "CLP"
+                 "moneda": "CLP",
+                 "fecha":"2015-12-07"
             ]
         }
 
@@ -72,7 +74,8 @@ Permite registrar una tarjeta de crédito en el sistema de custodia.
                  "montoAprobado1": 50000000,
                  "moneda1": "CLP",
                  "montoAprobado2": 0,
-                 "moneda2": "USD"
+                 "moneda2": "USD",
+                 "fecha":"2015-12-07"
             ]
         }
 
