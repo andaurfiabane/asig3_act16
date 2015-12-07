@@ -69,9 +69,9 @@ Permite registrar una tarjeta de crédito en el sistema de custodia.
             "Tarjeta_Crédito": [
                  "idTarjeta": 1,
                  "idCliente": 2,
-                 "montoApertura1": 50000000,
+                 "montoAprobado1": 50000000,
                  "moneda1": "CLP",
-                 "montoApertura2": 0,
+                 "montoAprobado2": 0,
                  "moneda2": "USD"
             ]
         }
