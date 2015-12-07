@@ -27,6 +27,7 @@ Permite registrar un crédito en el sistema de custodia.
     + Body
 
             {
+               "estado": true,
                "resultado": "Crédito almacenado correctamente."
             }
 
@@ -52,6 +53,7 @@ Permite registrar una línea de crédito en el sistema de custodia.
     + Body
 
             {
+               "estado": true,
                "resultado": "Línea de crédito almacenada correctamente."
             }
 
@@ -78,7 +80,8 @@ Permite registrar una tarjeta de crédito en el sistema de custodia.
 
     + Body
 
-            {
+            {  
+               "estado": true,
                "resultado": "Tarjeta de crédito almacenada correctamente."
             }
 
